@@ -12,12 +12,14 @@ const Footer: React.FC = () => {
           {/* Brand Column */}
           <div className="col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-indigo-600 text-white rounded-xl px-3 py-2 font-black text-sm">
-                <span className="text-orange-400">TT</span>
-              </div>
+              <img
+                src="/images/fareedlogo.webp"
+                alt="FAREED Mobile Phones & Accessories logo"
+                className="w-10 h-10 sm:w-12 sm:h-12 object-contain rounded-lg"
+              />
               <div>
-                <p className="font-black text-white text-sm leading-none">Tech-Trends</p>
-                <p className="text-indigo-400 text-xs">Mobile Accessories</p>
+                <p className="font-black text-white text-sm leading-none">FAREED</p>
+                <p className="text-indigo-400 text-xs">Mobile Phones & Accessories</p>
               </div>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-5 max-w-xs">
@@ -79,9 +81,9 @@ const Footer: React.FC = () => {
                 <Phone size={14} className="text-green-500 flex-shrink-0" />
                 +92 300 1234567 (WhatsApp)
               </a>
-              <a href="mailto:support@techtrends.pk" className="flex items-center gap-2 text-sm text-gray-400 hover:text-indigo-400 transition-colors">
+              <a href="mailto:support@fareed.pk" className="flex items-center gap-2 text-sm text-gray-400 hover:text-indigo-400 transition-colors">
                 <Mail size={14} className="text-indigo-400 flex-shrink-0" />
-                support@techtrends.pk
+                support@fareed.pk
               </a>
               <div className="flex items-center gap-2 text-sm text-gray-400">
                 <MapPin size={14} className="text-orange-400 flex-shrink-0" />
@@ -193,7 +195,7 @@ const Footer: React.FC = () => {
 
             <div className="text-center sm:text-right">
               <p className="text-xs text-gray-400">🔒 Secure & Trusted Shopping</p>
-              <p className="text-xs text-gray-500 mt-1">Pakistan's #1 Mobile Accessories Store</p>
+              <p className="text-xs text-gray-500 mt-1">Pakistan's trusted Mobile Phones & Accessories Store</p>
             </div>
           </div>
         </div>
@@ -203,7 +205,7 @@ const Footer: React.FC = () => {
       <div className="border-t border-slate-800 bg-slate-950">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-gray-500">
-            © {new Date().getFullYear()} Tech-Trends Mobile Accessories. All rights reserved.
+            © {new Date().getFullYear()} FAREED Mobile Phones & Accessories. All rights reserved.
           </p>
           <p className="text-xs text-gray-600">
             Made with ❤️ in Pakistan 🇵🇰

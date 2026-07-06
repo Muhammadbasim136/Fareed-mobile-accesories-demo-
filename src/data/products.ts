@@ -233,7 +233,7 @@ export const testimonials = [
   },
   {
     id: 2, name: 'Fatima Khan', location: 'Karachi', rating: 5,
-    text: 'The PowerMax 20000mAh is a beast! Charges my phone 6 times on a single charge. Great value for money and fast nationwide delivery. 10/10 recommend Tech-Trends!',
+    text: 'The PowerMax 20000mAh is a beast! Charges my phone 6 times on a single charge. Great value for money and fast nationwide delivery. 10/10 recommend FAREED!',
     avatar: 'FK',
   },
   {
@@ -243,7 +243,7 @@ export const testimonials = [
   },
   {
     id: 4, name: 'Sara Malik', location: 'Faisalabad', rating: 5,
-    text: 'Tech-Trends has the best prices in Pakistan! The GaN charger charges my laptop and phone simultaneously. Quality is top notch. Paid via JazzCash — super smooth!',
+    text: 'FAREED has the best prices in Pakistan! The GaN charger charges my laptop and phone simultaneously. Quality is top notch. Paid via JazzCash — super smooth!',
     avatar: 'SM',
   },
   {

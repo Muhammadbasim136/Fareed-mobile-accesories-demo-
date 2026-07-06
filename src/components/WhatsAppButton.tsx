@@ -25,7 +25,7 @@ const WhatsAppButton: React.FC = () => {
                 </svg>
               </div>
               <div className="flex-1">
-                <p className="font-bold text-gray-900 text-sm">Tech-Trends Support</p>
+                <p className="font-bold text-gray-900 text-sm">FAREED Support</p>
                 <div className="flex items-center gap-1">
                   <span className="w-2 h-2 bg-green-500 rounded-full" />
                   <p className="text-xs text-gray-500">Online now</p>
@@ -47,7 +47,7 @@ const WhatsAppButton: React.FC = () => {
             </div>
 
             <a
-              href="https://wa.me/923001234567?text=Hi%20Tech-Trends!%20I%20need%20help%20with%20my%20order."
+              href="https://wa.me/923001234567?text=Hi%20FAREED!%20I%20need%20help%20with%20my%20order."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center py-2.5 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl text-sm transition-colors"

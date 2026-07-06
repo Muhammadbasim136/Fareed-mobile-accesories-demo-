@@ -2,7 +2,6 @@ import React, { useState, Suspense, lazy } from 'react';
 import { CartProvider } from './context/CartContext';
 
 // Layout Components
-import AnnouncementBar from './components/AnnouncementBar';
 import Header from './components/Header';
 import MobileMenu from './components/MobileMenu';
 import SearchOverlay from './components/SearchOverlay';
@@ -32,9 +31,6 @@ const AppContent: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white overflow-x-hidden max-w-[100vw]">
-      {/* Announcement Bar */}
-      <AnnouncementBar />
-
       {/* Header - fixed, sits on top */}
       <Header
         onSearchOpen={() => setSearchOpen(true)}

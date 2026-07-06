@@ -43,12 +43,14 @@ const Header: React.FC<HeaderProps> = ({ onSearchOpen, onMenuOpen }) => {
       <div className="max-w-7xl mx-auto px-4 flex items-center gap-4">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2 flex-shrink-0 mr-2">
-          <div className="bg-indigo-700 text-white rounded-xl px-3 py-2 font-black text-sm tracking-tight leading-none">
-            <span className="text-orange-400">TT</span>
-          </div>
+          <img
+            src="/images/fareedlogo.webp"
+            alt="FAREED Mobile Phones & Accessories logo"
+            className="w-10 h-10 sm:w-12 sm:h-12 object-contain rounded-lg"
+          />
           <div className="hidden sm:block">
-            <p className="font-black text-gray-900 text-sm leading-none tracking-tight">Tech-Trends</p>
-            <p className="text-indigo-600 text-xs font-medium">Mobile Accessories</p>
+            <p className="font-black text-gray-900 text-[0.72rem] sm:text-sm leading-tight tracking-tight">FAREED</p>
+            <p className="text-indigo-600 text-[0.6rem] sm:text-xs font-medium leading-tight">Mobile Phones & Accessories</p>
           </div>
         </a>
 

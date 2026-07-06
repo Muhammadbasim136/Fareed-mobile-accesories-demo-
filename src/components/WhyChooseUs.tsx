@@ -129,10 +129,10 @@ const WhyChooseUs: React.FC = () => {
           className="text-center mb-10 sm:mb-14"
         >
           <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-widest mb-2">
-            Why Tech-Trends?
+            Why FAREED?
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900 mb-3">
-            The Tech-Trends Difference
+            The FAREED Difference
           </h2>
           <p className="text-gray-500 text-sm sm:text-base max-w-xl mx-auto">
             We're not just selling accessories — we're delivering a premium experience backed by real service.

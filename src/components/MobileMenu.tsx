@@ -46,9 +46,16 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-5 py-4 bg-indigo-700 text-white flex-shrink-0">
-              <div>
-                <span className="font-black text-lg tracking-tight">Tech-Trends</span>
-                <p className="text-xs text-indigo-200 mt-0.5">Power Up Your Everyday</p>
+              <div className="flex items-center gap-2">
+                <img
+                  src="/images/fareedlogo.webp"
+                  alt="FAREED Mobile Phones & Accessories logo"
+                  className="w-10 h-10 object-contain rounded-lg"
+                />
+                <div>
+                  <span className="font-black text-sm tracking-tight">FAREED</span>
+                  <p className="text-[10px] text-indigo-200 mt-0.5">Mobile Phones & Accessories</p>
+                </div>
               </div>
               <button
                 onClick={onClose}
